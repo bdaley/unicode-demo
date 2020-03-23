@@ -1,0 +1,12 @@
+body {
+    margin: 1em;
+}
+
+ul {
+    font-size: 8vmin;
+}
+
+/* https://www.toptal.com/designers/htmlarrows/symbols/ballot-box-with-check/ */
+ul.checklist li::before {
+    content: "\2611";
+}
